@@ -1,0 +1,69 @@
+.topbar{
+    width: 100%;
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    border-bottom: 1px solid #555;
+    background-color: #fff;
+}
+
+.topbarWrapper{
+    height: 100%;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+font-weight: 700;
+font-size: 40px;
+color: black;
+cursor: pointer;
+white-space: nowrap;
+}
+
+.topright{
+    display: flex;
+    align-items: center;
+}
+
+.topbarIconContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #555;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.topbarIconSummary{
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.topbarSearch{
+    width: 400px;
+    height: 30px;
+    border-bottom: 1px solid #555;
+    display: flex;
+    margin: 0 20px;
+}
+
+.topbarSearch>input{
+    width: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.topbarSearch>input:focus{
+    outline: none;
+}
+
+.topbarSearchButton{
+    background-color: transparent;
+    border: none;
+    color: #555;
+    cursor: pointer;
+}
