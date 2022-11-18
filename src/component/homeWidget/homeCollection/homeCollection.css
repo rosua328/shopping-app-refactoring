@@ -1,0 +1,54 @@
+.homeCollection{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(243, 242, 242);
+    margin: 20px 0;
+}
+
+.homeCollectionWrapper{
+    width: 1024px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.homeCollectionLeft{
+flex:1;
+}
+
+.homeCollectionTitle{
+    font-size: 30px;
+    font-weight: 500;
+    color: rgb(70, 69, 69);
+}
+
+.homeCollectionImg{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.homeCollectionRight{
+flex:2;
+padding: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+/* swipe 범위 제한 위한 것 */
+width: 400px;
+}
+
+.homeCollectionSwipe{
+    width: 100%;
+    height: 180px;
+}
+
+.homeCollectionContainer{
+display: flex;
+flex-direction: column;
+}
+
+.homeCollectionTitle{
+margin-bottom: 20px;
+}

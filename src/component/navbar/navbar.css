@@ -2,12 +2,11 @@
     width: 100%;
     height: 40px;
     background-color: white;
-    position: fixed;
-    top: 80;
-    z-index: 998;
 }
 
 .navbarWrapper{
+    width: 1024px;
+    margin: 0 auto;
     height: 100%;
     padding: 0 30px;
     display: flex;

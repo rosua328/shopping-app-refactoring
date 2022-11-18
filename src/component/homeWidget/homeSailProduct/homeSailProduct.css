@@ -1,0 +1,65 @@
+.homeSailProduct{
+    width: 1024px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.homeSailProductLeft{
+    display: flex;
+    flex: 1.5;
+    position: relative;
+}
+
+.homeSailProductNum{
+    font-size: 140px;
+    font-weight: 600;
+}
+
+.homeSailProductPercent{
+    font-size: 70px;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 160px;
+}
+
+.homeSailProductImg{
+    width: 100%;
+    height: 100%;
+    margin: 0 40px;
+    object-fit: cover;
+}
+
+.homeSailProductRight{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeSailProductExplain{
+    font-size: 20px;
+    color: gray;
+}
+
+.homeSailProductContentContainer{
+    margin: 25px 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.homeSailProductPrice{
+    color: rgb(88, 87, 87);
+}
+
+.homeSailProductTime{
+    font-size: 15px;
+    color: white;
+    background-color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
