@@ -3,6 +3,7 @@ import Navbar from "./component/navbar/Navbar";
 import Topbar from "./component/topbar/Topbar";
 import Home from "./component/page/home/Home";
 import Bottombar from "./component/bottombar/Bottombar";
+import Dress from "./component/page/dress/Dress";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
         <Topbar />
         <Navbar />
       </div>
-      <Home />
+      <Dress />
       <Bottombar />
     </div>
   );

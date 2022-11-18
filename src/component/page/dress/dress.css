@@ -1,0 +1,59 @@
+.dress{
+    width: 100%;
+}
+
+.dressWrapper{
+    width: 1024px;
+margin: 0 auto;
+}
+
+.dressTitle{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 40px 0;
+}
+
+.dressFilter{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.dressFilterColor, .dressSize{
+margin-left: 20px;
+}
+
+.dressEtc, .dressFilterColor, .dressSize{
+    border: none;
+    cursor: pointer;
+}
+
+.dressEtc:focus, .dressFilterColor:focus ,.dressSize:focus{
+    outline: none;
+}
+
+.dressProducts{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.dressProduct{
+    display: flex;
+    flex-direction: column;
+    width: 247px;
+    margin: 40px 0;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.dressImg{
+    width: 100%;
+    height: 380px;
+    object-fit: cover;
+}
+
+.dressProductTitle{
+    margin: 5px 0;
+}
