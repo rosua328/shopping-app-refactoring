@@ -5,6 +5,7 @@ import Home from "./component/page/home/Home";
 import Bottombar from "./component/bottombar/Bottombar";
 import Dress from "./component/page/dress/Dress";
 import Detail from "./component/page/detail/Detail";
+import Cart from "./component/page/cart/Cart";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
         <Navbar />
       </div>
       {/* <Dress /> */}
-      <Detail />
+      {/* <Detail /> */}
+      <Cart />
       <Bottombar />
     </div>
   );
